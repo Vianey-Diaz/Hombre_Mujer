@@ -187,8 +187,8 @@ def mostrar_resultado_foto(entrada, modelo, detector, usar_completa):
 
 
 # ---------------- Interfaz de la página ----------------
-st.title("🙂 Detector de rostros: Hombre / Mujer")
-st.write("El modelo fue entrenado en Google Colab. Elige cómo quieres probarlo.")
+st.title("Detector de rostros: Hombre / Mujer Universidad Nacional Autonoma de Honduras - Vianey Diaz")
+st.write("Consejo:Si eres mujer suelta tu cabello. Elige cómo quieres probarlo.")
 
 if not os.path.exists(RUTA_MODELO):
     st.error("No se encontró el archivo modelo_genero.keras. Súbelo al mismo repositorio que app.py.")
